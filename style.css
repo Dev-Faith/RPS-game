@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 section{
     height: 100vh;
     background-color: rgba(39, 41, 68);
@@ -148,4 +149,107 @@ div.fadeIn{
         transform:  translateY(0px);
     }
 }
+
+@media  screen and (max-width: 300px) {
+    body{
+        display: relative;
+        font-size: .5px !important;
+    }
+    .winner{
+       font-size: 10px;
+       margin-top: 10px;
+    }
+    .match button{
+         width: 60px;
+    height: 30px;
+    }
+
+    .options{
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+        margin-bottom: -10rem;
+    }
+
+    .intro h1{
+       text-align: center;
+
+    }
+    .computer-hand{
+        height: 100px;
+        width: 100px;
+    }
+    .player-hand{
+        height: 100px;
+        width: 100px;
+        align-self: center;
+    }
+
+    .hands .computer-hand .player-hand {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        align-self: center;
+        flex-direction: column;
+    }
+    
+    .hands{
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+    }
+
+
+
+}
+@media  screen and (max-width: 600px) {
+    body{
+        display: relative;
+        font-size: .5px !important;
+    }
+    .winner{
+        font-size: 30px;
+        margin-top: -10rem;
+    }
+    .match button{
+         width: 80px;
+    height: 40px;
+    
+    }
+    .options{
+        display: flex;
+        gap: 2rem;
+    }
+
+    .intro h1{
+       text-align: center;
+
+    }
+    .computer-hand{
+        height: 100px;
+        width: 100px;
+    }
+    .player-hand{
+        height: 100px;
+        width: 100px;
+        align-self: center;
+    }
+
+    .hands .computer-hand .player-hand {
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        align-self: center;
+        flex-direction: column;
+    }
+    
+    .hands{
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+
+
+}
+
+
 
